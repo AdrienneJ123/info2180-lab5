@@ -7,7 +7,7 @@ $username = 'lab5_user';
 $password = 'password123';
 $database = 'world';
 
-$conn = new mysqli($host, $username, $password, $database);
+$conn =new mysqli($host, $username, $password, $database);
 
 if ($conn->connect_error) {
     http_response_code(500);

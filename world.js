@@ -23,8 +23,7 @@ window.onload = () => {
             })
             .catch(error => {
                 // If something goes wrong it show an error message
-                result.innerHTML= "<p>Error fetching data...</p>";
-            });
+                result.innerHTML= "<p>Error fetching data...</p>";});
     }
     // When the user clicks the "Lookup Country" button,
     // call fetchData() and tell it we want the country information
