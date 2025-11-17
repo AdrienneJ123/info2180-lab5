@@ -30,7 +30,7 @@ if ($lookup === "country") {
                             WHERE name LIKE ?");
     $stmt->bind_param("s", $searchTerm);
     $stmt->execute();
-    $result = $stmt->get_result();
+    $result= $stmt->get_result();
 
     echo "<table border='1'>
             <thead>
@@ -52,9 +52,7 @@ if ($lookup === "country") {
               </tr>";
     }
     echo "</tbody></table>";
-    $stmt->close();
-}
-
+    $stmt->close();}
 //Cities Lookup
 else if ($lookup === "cities") {
 
