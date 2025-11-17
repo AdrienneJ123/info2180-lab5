@@ -51,7 +51,6 @@ if ($lookup === "country") {
                 <td>{$row['head_of_state']}</td>
               </tr>";
     }
-
     echo "</tbody></table>";
     $stmt->close();
 }
